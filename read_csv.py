@@ -3,7 +3,7 @@ import os
 import pdb
 
 # Be careful while joining path because it's OS specific
-df = pd.read_csv(os.path.join(os.getcwd()+r'\dataset\survey_results_public.csv'))
+df = pd.read_csv(os.path.join(os.getcwd()+r'/dataset/survey_results_public.csv'))
 
 # pd.set_option('display.max_columns',85) mainly used in jupyter notebook
 # print(df)
