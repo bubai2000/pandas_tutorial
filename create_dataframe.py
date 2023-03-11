@@ -6,6 +6,8 @@ people = {
     'address': ['Midnapore','Kolaghat','Kolkata']
 } #All the arrays must be of same length to create dataframe
 
+
+# This is just for test
 df = pd.DataFrame(people)
 
 print(type(df)) #Pandas DataFrame class object( two dimensional)
