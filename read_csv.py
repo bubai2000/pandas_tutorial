@@ -8,8 +8,6 @@ df = pd.read_csv(os.path.join(os.getcwd()+r'/dataset/survey_results_public.csv')
 # pd.set_option('display.max_columns',85) mainly used in jupyter notebook
 # print(df)
 
-#test2
-
 print(df.shape) #size of dataframe in (row, column) format
 info=df.info() #Return metadata info about dataframe
 print(info)
