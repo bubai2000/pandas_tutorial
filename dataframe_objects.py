@@ -30,3 +30,5 @@ print(sr, type(sr))
 df=df.assign(greetings=sr) #Add series as new row in dataframe
 
 print(df)
+
+print(df.columns, type(df.columns))
